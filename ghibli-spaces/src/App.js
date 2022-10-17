@@ -7,6 +7,7 @@ import Todo from "./components/TodoList/Todo";
 import DarkMode from "./components/DarkMode/DarkMode";
 import ColorContext from "./contexts/ColorContext";
 import { FullScreen, useFullScreenHandle } from "react-full-screen";
+import { BsArrowsFullscreen } from "react-icons/bs";
 
 const App = () => {
   const [color, setColor] = useState("#1d2021");
@@ -24,9 +25,10 @@ const App = () => {
             <DarkMode />
             <button
               onClick={handle.enter}
-              style={{ position: "absolute", top: "1px", right: "12px" }}
+              className="btn-fullscreen"
+              style={{ backgroundColor: color }}
             >
-              Enter fullscreen
+              <BsArrowsFullscreen />
             </button>
           </ColorContext.Provider>
         </FullScreen>
