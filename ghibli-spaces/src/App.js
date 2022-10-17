@@ -18,6 +18,7 @@ const App = () => {
         <Pomodoro />
         <Todo />
         <DarkMode />
+        <Language />
       </ColorContext.Provider>
     </div>
   );
