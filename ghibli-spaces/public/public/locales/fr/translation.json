@@ -1,13 +1,21 @@
 {
-    "Click an emoji multiple times for more content": "Cliquez plusieurs fois sur un emoji pour plus de contenu",
-    "Start": "Commencer",
-    "Timer": "Minuteur",
-    "Pause": "Pause",
-    "Reset": "Réinitialiser",
-    "My Tasks": "Tâches",
-    "ADD": "AJOUTER",
-    "Dark": "Sombre",
-    "Light": "Lumière",
-    "Forest": "forêt",
-    "Autumn": "l'automne"
+  "desc": {
+    "1": "Cliquez plusieurs fois sur un emoji pour plus de contenu"
+  },
+  "Start": {
+    "1": "Commencer"
+  },
+  "Timer": {
+    "1": "Minuteur"
+  },
+  "Pause": {
+    "1": "Pause"
+  },
+  "Reset": { "1": "Réinitialiser" },
+  "My Tasks": { "1": "Tâches" },
+  "ADD": { "1": "AJOUTER" },
+  "Dark": { "1": "Sombre" },
+  "Light": { "1": "Lumière" },
+  "Forest": { "1": "forêt" },
+  "Autumn": { "1": "l'automne" }
 }
