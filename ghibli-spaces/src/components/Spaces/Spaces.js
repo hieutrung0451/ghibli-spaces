@@ -26,7 +26,7 @@ const Spaces = () => {
       <div className="button-container">
         <SpacesButton icon="📚" url={study} type="audio/wav" />
         <SpacesButton icon="☕" url={coffee} type="audio/wav" />
-        <SpacesButton icon="💻" url={code} type="audio/wav" />
+        <SpacesButton icon="💻" url={code} type="audio/wav" />  
         <SpacesButton icon="🚂" url={train} type="audio/wav" />
         <SpacesButton icon="⛺" url={camp} type="audio/wav" />
         <SpacesButton icon="🐈" url={cat} type="audio/wav" />
