@@ -1,0 +1,17 @@
+.darkmode-container {
+  position: relative;
+  bottom: 610px;
+  left: 328px;
+}
+
+.darkmode-container select {
+  width: 140px;
+  height: 36px;
+  color: #fff;
+  background-color: #232931;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-align: center;
+} 

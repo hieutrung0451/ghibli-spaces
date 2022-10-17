@@ -1,0 +1,42 @@
+.video-player {
+  position: absolute;
+  top: -1px;
+  right: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  display: flex;
+  width: 102%;
+  height: 102vh;
+  object-fit: cover;
+}
+
+.videos-bar {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  background-color: #232931;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  bottom: 62px;
+  left: 34%;
+  border-radius: 8px;
+}
+
+.videos-bar button {
+  margin: 9px 20px 0;
+  width: 24px;
+  height: 22px;
+  background-color: #232931;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.videos-bar button:focus {
+  color: #3d8361;
+}

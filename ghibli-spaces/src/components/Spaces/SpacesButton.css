@@ -1,0 +1,12 @@
+.spaces-btn {
+  width: 57px;
+  height: 57px;
+  background-color: #232931;
+  border-radius: 12px;
+  margin-right: 12px;
+  margin-bottom: 6px;
+  border: 2px solid #000;
+  font-size: 24px;
+  cursor: pointer;
+}
+

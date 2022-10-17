@@ -1,0 +1,33 @@
+.app_todo {
+  width: 360px;
+  height: 287px;
+  z-index: 1;
+  background-color: #232931;
+  position: absolute;
+  margin-left: 1250px;
+  bottom: 58px;
+  border-radius: 8px;
+  right: 11px;
+}
+
+.todoList-site__header {
+  width: 360px;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.listSelect {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.fa-minus {
+  color: #ccc;
+}
