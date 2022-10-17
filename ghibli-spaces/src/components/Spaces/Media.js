@@ -11,7 +11,7 @@ const Media = () => {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
         width="100%"
-        height={374}
+        height={310}
         frameBorder={0}
       />
     </div>
