@@ -1,17 +1,17 @@
 .app_todo {
-  width: 360px;
+  width: 390px;
   height: 287px;
   z-index: 1;
   background-color: #232931;
   position: absolute;
   margin-left: 1250px;
-  bottom: 58px;
+  bottom: 90px;
   border-radius: 8px;
   right: 11px;
 }
 
 .todoList-site__header {
-  width: 360px;
+  width: 390px;
   height: 50px;
   border-bottom: 1px solid #ccc;
   display: flex;

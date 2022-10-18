@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./Content.css";
+import ColorContext from "../../contexts/ColorContext";
 
-const Content = () => {
+const Content = (props) => {
   const storageJobs = JSON.parse(localStorage.getItem("jobs"));
   const [job, setJob] = useState("");
   const [jobs, setJobs] = useState(storageJobs ?? []);
+  const color = useContext(ColorContext);
 
   //Add a new job
   const handleAddTodoWork = () => {
@@ -24,22 +26,29 @@ const Content = () => {
     localStorage.setItem("jobs", JSON.stringify(newJobs));
   };
 
-
-  console.log(job);
-
   return (
     <div className="ListTodo">
       <input
         type="text"
         value={job}
-        placeholder="Enter your work..."
+        placeholder={props.transContent("placeholder.1")}
         onChange={(e) => setJob(e.target.value)}
+        style={{ backgroundColor: color.color }}
       />
-      <button onClick={handleAddTodoWork}>ADD</button>
+      <button
+        onClick={handleAddTodoWork}
+        style={{ backgroundColor: color.color }}
+      >
+        {props.transContent("add.1")}
+      </button>
       <hr />
       <ul>
         {jobs.map((item, index) => {
-          return <li onClick={handleDelete} key={index}>{item}</li>;
+          return (
+            <li onClick={handleDelete} key={index}>
+              {item}
+            </li>
+          );
         })}
       </ul>
     </div>

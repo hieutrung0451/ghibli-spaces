@@ -1,0 +1,25 @@
+{
+  "desc": {
+    "1": "Click an emoji multiple times for more content"
+  },
+
+  "start": {
+    "1": "start"
+  },
+
+  "pause": {
+    "1": "pause"
+  },
+
+  "reset": {
+    "1": "reset"
+  },
+
+  "add": {
+    "1": "ADD"
+  },
+
+  "placeholder": {
+    "1": "Enter your work..."
+  }
+}
