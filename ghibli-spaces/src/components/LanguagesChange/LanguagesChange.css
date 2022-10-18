@@ -1,0 +1,17 @@
+nav {
+  position: absolute;
+  bottom: 10px;
+  right: 11px;
+}
+
+nav select {
+  width: 140px;
+  height: 36px;
+  color: #fff;
+  background-color: #232931;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-align: center;
+}

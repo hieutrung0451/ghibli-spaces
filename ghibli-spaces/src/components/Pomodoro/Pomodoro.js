@@ -9,7 +9,7 @@ const STATUS = {
   default: 2,
 };
 
-const Pomorodo = () => {
+const Pomorodo = (props) => {
   const [minutes, setMinutes] = React.useState(25);
   const [seconds, setSeconds] = React.useState(0);
   const [displayMessage, setDisplayMessage] = React.useState(false);
@@ -74,7 +74,7 @@ const Pomorodo = () => {
             className="btn-pomodoro btn-start"
             style={{ backgroundColor: color.color }}
           >
-            Start
+            {props.translation("start.1")}
           </button>
           <div className="more-option">
             <button
@@ -82,14 +82,14 @@ const Pomorodo = () => {
               className="btn-pomodoro"
               style={{ backgroundColor: color.color }}
             >
-              Pause
+              {props.translation("pause.1")}
             </button>
             <button
               onClick={Reset}
               className="btn-pomodoro"
               style={{ backgroundColor: color.color }}
             >
-              Reset
+              {props.translation("reset.1")}
             </button>
           </div>
         </div>

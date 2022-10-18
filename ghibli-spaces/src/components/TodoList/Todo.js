@@ -3,7 +3,7 @@ import "./Todo.css";
 import Content from "./Content";
 import ColorContext from "../../contexts/ColorContext";
 
-const Todo = () => {
+const Todo = (props) => {
   const color = useContext(ColorContext);
 
   return (
@@ -16,7 +16,7 @@ const Todo = () => {
           <i className="fa fa-minus"></i>
         </a>
       </div>
-      <Content />
+      <Content transContent={props.translation} />
     </div>
   );
 };

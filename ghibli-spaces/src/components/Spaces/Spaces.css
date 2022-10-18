@@ -33,9 +33,10 @@
 }
 
 .spaces-container .spaces-desc {
+  height: 30px;
   color: #fff;
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .spaces-container .button-container {
