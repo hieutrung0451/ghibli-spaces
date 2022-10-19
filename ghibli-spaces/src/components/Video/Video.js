@@ -9,7 +9,7 @@ import fly from "../../assets/videos/fly-video.mp4";
 import ColorContext from "../../contexts/ColorContext";
 
 const Video = () => {
-  const [video, setVideo] = useState(fly);
+  const [video, setVideo] = useState(lonley);
   const color = useContext(ColorContext);
 
   const showVideo = (e) => {
