@@ -11,6 +11,6 @@
   width: 100%;
   height: 100vh;
   padding: 0 60px;
-  background-image: url("./Kakariko.jpg");
+  background-image: url("../../assets/images/Kakariko.jpg");
   background-size: cover;
 }
