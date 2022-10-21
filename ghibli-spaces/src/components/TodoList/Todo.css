@@ -13,7 +13,7 @@
 .todoList-site__header {
   width: 390px;
   height: 50px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: space-between;
