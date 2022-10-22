@@ -1,0 +1,13 @@
+.container-tools {
+  width: 44px;
+  height: 329px;
+  background-color: #1d2021;
+  z-index: 1;
+  position: absolute;
+  top: 163px;
+  left: 319px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

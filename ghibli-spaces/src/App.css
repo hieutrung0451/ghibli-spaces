@@ -16,6 +16,10 @@
   overflow: hidden;
 }
 
+.app a {
+  color: #fff;
+}
+
 .btn-fullscreen {
   position: absolute;
   top: 5px;

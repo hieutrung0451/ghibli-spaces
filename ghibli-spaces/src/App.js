@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Spaces from "./components/Spaces/Spaces";
 import Video from "./components/Video/Video";
-import Pomodoro from "./components/Pomodoro/Pomodoro";
-import Todo from "./components/TodoList/Todo";
+import Tools from "./components/Tools/Tools";
 import DarkMode from "./components/DarkMode/DarkMode";
 import LanguagesChange from "./components/LanguagesChange/LanguagesChange";
 import Homepage from "./components/Homepage/Homepage";
@@ -35,8 +34,7 @@ const Main = () => {
         <ColorContext.Provider value={{ color: color, setColor: setColor }}>
           <Spaces translation={t} />
           <Video />
-          <Pomodoro translation={t} />
-          <Todo translation={t} />
+          <Tools translation={t}/>
           <DarkMode />
           <button
             onClick={handle.enter}
