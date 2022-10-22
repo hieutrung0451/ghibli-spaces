@@ -4,10 +4,9 @@
   z-index: 1;
   background-color: #232931;
   position: absolute;
-  margin-left: 1250px;
-  bottom: 90px;
+  top: 104px;
+  left: 560px;
   border-radius: 8px;
-  right: 11px;
 }
 
 .todoList-site__header {

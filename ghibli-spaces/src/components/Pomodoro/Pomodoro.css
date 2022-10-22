@@ -3,11 +3,9 @@
   height: 160px;
   background-color: #232931;
   border-radius: 8px;
-  margin-top: 250px;
-  margin-left: 950px;
   position: absolute;
-  bottom: 400px;
-  right: 10px;
+  bottom: 246px;
+  left: 560px;
 }
 
 .header {
@@ -34,7 +32,7 @@
 }
 
 #timer {
-  width: 128px; 
+  width: 128px;
   font-size: 48px;
   margin-top: 24px;
   margin-left: 11px;
