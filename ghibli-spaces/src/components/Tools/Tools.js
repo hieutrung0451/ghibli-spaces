@@ -22,7 +22,7 @@ const Tools = (props) => {
       </ToolsItem>
       <ToolsItem icon={<AiOutlineCalendar />} title="Calendar" />
       <ToolsItem icon={<FaRegStickyNote />} title="Note" />
-      <ToolsItem icon={<SlSocialSpotify />} title="Spotif" />
+      <ToolsItem icon={<SlSocialSpotify />} title="Spotify" />
     </div>
   );
 };
