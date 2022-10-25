@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Tools.css";
 import Pomodoro from "../Pomodoro/Pomodoro";
 import Todo from "../TodoList/Todo";
+import Calendar from "../Calendar/Calendar";
 import ColorContext from "../../contexts/ColorContext";
 import ToolsItem from "./ToolsItem";
 import { BiTime } from "react-icons/bi";
@@ -20,7 +21,9 @@ const Tools = (props) => {
       <ToolsItem icon={<BsListCheck />} title="Todo">
         <Todo translation={props.translation} />
       </ToolsItem>
-      <ToolsItem icon={<AiOutlineCalendar />} title="Calendar" />
+      <ToolsItem icon={<AiOutlineCalendar />} title="Calendar">
+        <Calendar />  
+      </ToolsItem>
       <ToolsItem icon={<FaRegStickyNote />} title="Note" />
       <ToolsItem icon={<SlSocialSpotify />} title="Spotify" />
     </div>
