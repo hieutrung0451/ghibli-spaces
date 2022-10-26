@@ -1,6 +1,6 @@
 .container-tools {
   width: 54px;
-  height: 336px;
+  height: auto;
   background-color: #1d2021;
   z-index: 1;
   position: absolute;
