@@ -32,6 +32,18 @@
   padding: 8px 8px 4px;
 }
 
+.btn-fullscreenExit {
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  color: #fff;
+  background-color: #232931;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 8px 8px 4px;
+}
+
 .btn-exit {
   position: absolute;
   top: 5px;
