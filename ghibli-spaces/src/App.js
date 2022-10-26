@@ -28,7 +28,7 @@ const Main = () => {
   const [color, setColor] = useState("#1d2021");
   const handle = useFullScreenHandle();
   const { t, i18n } = useTranslation();
-  const [fullscreen, setFullsceen] = useState(true);
+  const [fullscreen, setFullscreen] = useState(true);
   return (
     <div>
       <FullScreen handle={handle}>
@@ -40,7 +40,7 @@ const Main = () => {
 
           <div
             onClick={() => {
-              setFullsceen(!fullscreen);
+              setFullscreen(!fullscreen);
             }}
           >
             {fullscreen ? (
