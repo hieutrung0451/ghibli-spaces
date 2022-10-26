@@ -21,5 +21,13 @@
 
   "placeholder": {
     "1": "Nhập công việc cần làm..."
+  },
+
+  "enterTitle": {
+    "1": "Nhập tiêu đề"
+  },
+
+  "enterMess": {
+    "1": "Nhập văn bản"
   }
 }

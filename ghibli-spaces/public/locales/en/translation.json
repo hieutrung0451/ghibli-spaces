@@ -21,5 +21,13 @@
 
   "placeholder": {
     "1": "Enter your work..."
+  },
+
+  "enterTitle": {
+    "1": "Enter your title"
+  },
+
+  "enterMess": {
+    "1": "Enter your text"
   }
 }
