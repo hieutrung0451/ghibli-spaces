@@ -3,13 +3,13 @@ import "./Tools.css";
 import Pomodoro from "../Pomodoro/Pomodoro";
 import Todo from "../TodoList/Todo";
 import Calendar from "../Calendar/Calendar";
+import Note from "../Note/Note";
 import ColorContext from "../../contexts/ColorContext";
 import ToolsItem from "./ToolsItem";
 import { BiTime } from "react-icons/bi";
 import { BsListCheck } from "react-icons/bs";
 import { AiOutlineCalendar } from "react-icons/ai";
 import { FaRegStickyNote } from "react-icons/fa";
-import { SlSocialSpotify } from "react-icons/sl";
 
 const Tools = (props) => {
   const color = useContext(ColorContext);
@@ -22,10 +22,11 @@ const Tools = (props) => {
         <Todo translation={props.translation} />
       </ToolsItem>
       <ToolsItem icon={<AiOutlineCalendar />} title="Calendar">
-        <Calendar />  
+        <Calendar />
       </ToolsItem>
-      <ToolsItem icon={<FaRegStickyNote />} title="Note" />
-      <ToolsItem icon={<SlSocialSpotify />} title="Spotify" />
+      <ToolsItem icon={<FaRegStickyNote />} title="Note">
+        <Note translation={props.translation} />
+      </ToolsItem>
     </div>
   );
 };
