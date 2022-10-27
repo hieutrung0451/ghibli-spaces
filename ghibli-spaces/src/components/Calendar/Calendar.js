@@ -10,12 +10,7 @@ const Calendar = () => {
   const calendarComponentRef = React.createRef();
   const [events, setEvents] = useLocalStorage("events", [{}]);
 
-  const handleDateClick = (arg) => {
-    alert(arg.dateStr);
-  };
-
   const handleSelectedDates = (info) => {
-    alert("selected " + info.startStr + " to " + info.endStr);
     const title = prompt("What's the name of the title");
     console.log(info);
     if (title != null) {
@@ -39,7 +34,6 @@ const Calendar = () => {
         schedulerLicenseKey="GPL-My-Project-Is-Open-Source"
         ref={calendarComponentRef}
         defaultView="dayGridMonth"
-        dateClick={handleDateClick}
         displayEventTime={true}
         header={{
           left: "prev,next today",
