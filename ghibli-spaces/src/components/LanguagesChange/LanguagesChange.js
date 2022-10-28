@@ -15,8 +15,8 @@ const LanguagesChange = (props) => {
         onChange={handleChangeLanguage}
         style={{ backgroundColor: color.color }}
       >
-        <option value="vn">vn</option>
         <option value="en">en</option>
+        <option value="vn">vn</option>
         <option value="jp">jp</option>
       </select>
     </nav>

@@ -23,25 +23,27 @@
 .btn-fullscreen {
   position: absolute;
   top: 5px;
-  right: 50px;
+  right: 11px;
   color: #fff;
   background-color: #232931;
   border: none;
   border-radius: 8px;
   font-size: 18px;
   padding: 8px 8px 4px;
+  cursor: pointer;
 }
 
 .btn-fullscreenExit {
   position: absolute;
   top: 5px;
-  right: 50px;
+  right: 11px;
   color: #fff;
   background-color: #232931;
   border: none;
   border-radius: 8px;
   font-size: 18px;
   padding: 8px 8px 4px;
+  cursor: pointer;
 }
 
 .btn-exit {
