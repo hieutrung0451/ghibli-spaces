@@ -6,14 +6,14 @@ import ColorContext from "../../contexts/ColorContext";
 
 const Note = (props) => {
   const color = useContext(ColorContext);
-  // State
+
   let emptyNote = {
     noteText: "",
     author: "",
   };
   const [note, setNote] = useState(emptyNote);
   const [allNote, setAllNote] = useLocalStorage("note", []);
-  // Function
+
   function onNoteChange(e) {
     let { name, value } = e.target;
     setNote((prevNote) => {
@@ -39,7 +39,6 @@ const Note = (props) => {
     );
   }
 
-  // Edit
   const [editInput, setEditInput] = useState(null);
   function onNoteEdit(id) {
     let thisNote = allNote.filter((note) => note.id === id);
@@ -91,7 +90,7 @@ const Note = (props) => {
       />
     );
   });
-  // Return
+
   return (
     <div className="note" style={{ backgroundColor: color.color }}>
       <h3>Note Editor</h3>
