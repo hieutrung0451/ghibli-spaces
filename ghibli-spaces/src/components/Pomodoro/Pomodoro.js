@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import React from "react";
 import "./Pomodoro.css";
 import ColorContext from "../../contexts/ColorContext";
+import pomodoroSound from "../../assets/sounds/pomodoro.wav";
 
 const STATUS = {
   pause: 0,
@@ -17,6 +18,8 @@ const Pomorodo = (props) => {
   const intervalRef = React.useRef();
   const color = useContext(ColorContext);
 
+  const sound = new Audio(pomodoroSound);
+
   function countDown() {
     if (seconds === 0) {
       if (minutes !== 0) {
@@ -28,6 +31,7 @@ const Pomorodo = (props) => {
         setSeconds(sec);
         setMinutes(mins);
         setDisplayMessage((value) => !value); // try using callback form to prevent stale data
+        sound.play();
       }
     } else {
       setSeconds((sec) => sec - 1); // try using callback form to prevent stale data
