@@ -78,7 +78,7 @@ const Pomorodo = (props) => {
             className="btn-pomodoro btn-start"
             style={{ backgroundColor: color.color }}
           >
-            {props.translation("start.1")}
+            start
           </button>
           <div className="more-option">
             <button
@@ -86,14 +86,14 @@ const Pomorodo = (props) => {
               className="btn-pomodoro"
               style={{ backgroundColor: color.color }}
             >
-              {props.translation("pause.1")}
+              pause
             </button>
             <button
               onClick={Reset}
               className="btn-pomodoro"
               style={{ backgroundColor: color.color }}
             >
-              {props.translation("reset.1")}
+              reset
             </button>
           </div>
         </div>

@@ -98,7 +98,7 @@ const Note = (props) => {
         <input
           type="text"
           name="author"
-          placeholder={props.translation("enterTitle.1")}
+          placeholder="Enter Title"
           value={note.author}
           onChange={onNoteChange}
           classNam="input-title"
@@ -108,14 +108,14 @@ const Note = (props) => {
         <textarea
           row="3"
           name="noteText"
-          placeholder={props.translation("enterMess.1")}
+          placeholder="Enter Text"
           value={note.noteText}
           onChange={onNoteChange}
           maxLength="30"
         />
 
         <button type="submit" style={{ backgroundColor: color.color }}>
-          {props.translation("add.1")}
+          ADD
         </button>
       </form>
       {noteElements}

@@ -31,7 +31,7 @@ const Content = (props) => {
       <input
         type="text"
         value={job}
-        placeholder={props.transContent("placeholder.1")}
+        placeholder="Enter your work..."
         onChange={(e) => setJob(e.target.value)}
         style={{ backgroundColor: color.color }}
       />
@@ -39,7 +39,7 @@ const Content = (props) => {
         onClick={handleAddTodoWork}
         style={{ backgroundColor: color.color }}
       >
-        {props.transContent("add.1")}
+        ADD
       </button>
       <hr />
       <ul>
