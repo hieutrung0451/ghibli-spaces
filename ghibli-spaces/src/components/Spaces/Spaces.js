@@ -17,10 +17,8 @@ import tea from "../../assets/sounds/tea.wav";
 import ocean from "../../assets/sounds/ocean.wav";
 import ColorContext from "../../contexts/ColorContext";
 
-
 const Spaces = (props) => {
   const color = useContext(ColorContext);
-  
 
   return (
     <div className="spaces-container" style={{ backgroundColor: color.color }}>
@@ -28,7 +26,9 @@ const Spaces = (props) => {
         <span className="spaces-title">Spaces 🍁</span>
         <Clock />
       </div>
-      <p className="spaces-desc">{props.translation("desc.1")}</p>
+      <p className="spaces-desc">
+        Click an emoji multiple times for more content
+      </p>
       <div className="button-container">
         <SpacesButton icon="📚" url={study} type="audio/wav" />
         <SpacesButton icon="☕" url={coffee} type="audio/wav" />
