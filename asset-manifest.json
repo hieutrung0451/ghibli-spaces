@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ghibliSpaces/static/css/main.15584d24.css",
-    "main.js": "/ghibliSpaces/static/js/main.08ac5727.js",
+    "main.js": "/ghibliSpaces/static/js/main.725493a2.js",
     "static/media/nature-video.mp4": "/ghibliSpaces/static/media/nature-video.59d818d98a7439b817a6.mp4",
     "static/media/study-video.mp4": "/ghibliSpaces/static/media/study-video.de49ec17468ed92c3ee7.mp4",
     "static/media/train-video.mp4": "/ghibliSpaces/static/media/train-video.4b1d7362d326aa385ce0.mp4",
@@ -24,10 +24,10 @@
     "index.html": "/ghibliSpaces/index.html",
     "static/media/getFetch.cjs": "/ghibliSpaces/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.15584d24.css.map": "/ghibliSpaces/static/css/main.15584d24.css.map",
-    "main.08ac5727.js.map": "/ghibliSpaces/static/js/main.08ac5727.js.map"
+    "main.725493a2.js.map": "/ghibliSpaces/static/js/main.725493a2.js.map"
   },
   "entrypoints": [
     "static/css/main.15584d24.css",
-    "static/js/main.08ac5727.js"
+    "static/js/main.725493a2.js"
   ]
 }
