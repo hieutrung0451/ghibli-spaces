@@ -1,0 +1,33 @@
+{
+  "desc": {
+    "1": "Chọn vào biểu tượng để hiện nội dung"
+  },
+
+  "start": {
+    "1": "bắt đầu"
+  },
+
+  "pause": {
+    "1": "tạm dừng"
+  },
+
+  "reset": {
+    "1": "hoàn tác"
+  },
+
+  "add": {
+    "1": "THÊM"
+  },
+
+  "placeholder": {
+    "1": "Nhập công việc cần làm..."
+  },
+
+  "enterTitle": {
+    "1": "Nhập tiêu đề"
+  },
+
+  "enterMess": {
+    "1": "Nhập văn bản"
+  }
+}

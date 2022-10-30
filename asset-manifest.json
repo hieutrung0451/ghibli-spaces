@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ghibliSpaces/static/css/main.15584d24.css",
+    "main.js": "/ghibliSpaces/static/js/main.9c1b590f.js",
+    "static/media/nature-video.mp4": "/ghibliSpaces/static/media/nature-video.59d818d98a7439b817a6.mp4",
+    "static/media/study-video.mp4": "/ghibliSpaces/static/media/study-video.de49ec17468ed92c3ee7.mp4",
+    "static/media/train-video.mp4": "/ghibliSpaces/static/media/train-video.4b1d7362d326aa385ce0.mp4",
+    "static/media/fly-video.mp4": "/ghibliSpaces/static/media/fly-video.12cafb6ddd062884ad00.mp4",
+    "static/media/lonley-video.mp4": "/ghibliSpaces/static/media/lonley-video.c0317d91bb3834efa0ee.mp4",
+    "static/media/warm-video.mp4": "/ghibliSpaces/static/media/warm-video.064e4bef36b6a6578d45.mp4",
+    "static/media/bird.wav": "/ghibliSpaces/static/media/bird.4a62fc004f600aae78d8.wav",
+    "static/media/coffee.wav": "/ghibliSpaces/static/media/coffee.1a35a21cb1255994a1b6.wav",
+    "static/media/ocean.wav": "/ghibliSpaces/static/media/ocean.6ea40d16a3b7af76d4d5.wav",
+    "static/media/wind-chimes.wav": "/ghibliSpaces/static/media/wind-chimes.57c2e173ae3a1794fe64.wav",
+    "static/media/art.wav": "/ghibliSpaces/static/media/art.cf8c5bc1be4125264d5e.wav",
+    "static/media/camp.wav": "/ghibliSpaces/static/media/camp.3ee7b6415d78f6ffc49d.wav",
+    "static/media/cat.wav": "/ghibliSpaces/static/media/cat.36da4af170ed127e7f55.wav",
+    "static/media/coding.wav": "/ghibliSpaces/static/media/coding.992c2c86541907791c31.wav",
+    "static/media/study.wav": "/ghibliSpaces/static/media/study.0c9d3f68335cc3c0eb0b.wav",
+    "static/media/tea.wav": "/ghibliSpaces/static/media/tea.47e2e732226bf9c9f582.wav",
+    "static/media/train.wav": "/ghibliSpaces/static/media/train.df182cd97a3ed43e7ec1.wav",
+    "static/media/wind.wav": "/ghibliSpaces/static/media/wind.6875eb8c6166a0dcc4da.wav",
+    "static/media/pomodoro.wav": "/ghibliSpaces/static/media/pomodoro.5b9ecb195741da638d9c.wav",
+    "index.html": "/ghibliSpaces/index.html",
+    "static/media/getFetch.cjs": "/ghibliSpaces/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.15584d24.css.map": "/ghibliSpaces/static/css/main.15584d24.css.map",
+    "main.9c1b590f.js.map": "/ghibliSpaces/static/js/main.9c1b590f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15584d24.css",
+    "static/js/main.9c1b590f.js"
+  ]
+}
