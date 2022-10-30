@@ -1,6 +1,7 @@
 {
   "name": "ghibli-spaces",
   "version": "0.1.0",
+  "homepage": "http://hieutrung0451.github.io/ghibliSpaces",
   "private": true,
   "dependencies": {
     "@fullcalendar/core": "^5.11.3",
@@ -28,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
