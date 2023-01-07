@@ -4,16 +4,16 @@ const Media = () => {
   return (
     <div className="media">
       <iframe
-        title="ghibli musics"
+        title="ghibli music"
         style={{ borderRadius: "12px", marginTop: "8px" }}
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DX7GTqMQDhOum?utm_source=generator&theme=0"
-        allowFullScreen
+        width="100%"
+        height="80"
+        frameBorder="0"
+        allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-        width="100%"
-        height={300}
-        frameBorder={0}
-      />
+      ></iframe>
     </div>
   );
 };
