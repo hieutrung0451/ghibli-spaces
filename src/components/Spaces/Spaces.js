@@ -43,7 +43,7 @@ const Spaces = (props) => {
         <SpacesButton icon="🍵" url={tea} type="audio/wav" />
         <SpacesButton icon="🌊" url={ocean} type="audio/wav" />
       </div>
-      {/* <Media /> */}
+      <Media />
     </div>
   );
 };

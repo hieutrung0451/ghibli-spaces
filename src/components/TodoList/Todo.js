@@ -12,9 +12,6 @@ const Todo = (props) => {
         <select className="listSelect" style={{ backgroundColor: color.color }}>
           <option value="all">My Tasks</option>
         </select>
-        <a href="#">
-          <i className="fa fa-minus"></i>
-        </a>
       </div>
       <Content transContent={props.translation} />
     </div>
